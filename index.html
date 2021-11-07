@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+<body>
+    <div id="button_container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+        <input type="text" name="screen" id="screen"><br>
+       
+        <table>
+            <tr>
+                <button data-number="(" class="number_button">(</button>
+                <button data-number=")" class="number_button">)</button>
+                <button data-number="AC" class="number_button">AC</button>
+                <button data-number="%" class="number_button">%</button>
+           <tr><br>
+        <button data-number="7" class="number_button">7</button>
+        <button data-number="8" class="number_button">8</button>
+        <button data-number="9" class="number_button">9</button>
+        <button data-number="*" class="number_button">*</button>
+    </tr>
+   
+        <br />
+        <button class="number_button">4</button>
+        <button class="number_button">5</button>
+        <button class="number_button">6</button>
+        <button data-number="-" class="number_button">-</button>
+        <br />
+        <tr>
+        <button class="number_button">1</button>
+        <button class="number_button">2</button>
+        <button class="number_button">3</button>
+        <button data-number="+" class="number_button">+</button>
+    </tr>
+        <br />
+        <tr>
+            <button class="number_button">0</button>
+            <button class="number_button">.</button>
+            <button class="number_button">/</button>
+            <button data-number="=" class="number_button">=</button>
+    </tr>
+    </table>
+</div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
